@@ -8,10 +8,42 @@ ion-title {
 }
 
 .little-cards {
-  width: 40%;
+  width: 42%;
   display: inline-block;
 }
 
 .little-title {
   padding-left: 3px;
+}
+
+.bg {
+  background-image: url("/assets/LUBRIZOL.jpg");
+  background-size:cover;
+  background-repeat: no-repeat;
+}
+.auteur{
+  color:white;
+}
+.titre {
+  color:white;
+  border-style:solid;
+  border-width: 0 0 0.5px 0;
+  padding-bottom:3%;
+}
+.synopsis {
+  color:white;
+  padding-top:0;
+  padding-bottom: 0;
+}
+.date {
+  color:white;
+  padding-top:0;
+  text-align: right;
+}
+.transparence {
+  background-color: rgba(0, 0, 0, 0.5);
+  margin-top:40%;
+}
+.ilya {
+  font-size: 1.2vh;
 }
